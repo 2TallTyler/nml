@@ -1527,6 +1527,7 @@ properties[0x0D] = {
     "name":             {"size": 2, "num": 0x10, "string": 0xDC},
     "maintenance_cost": {"size": 2, "num": 0x11},
     "badges":           {"custom_function": lambda value: badge_list(0x12, value)},
+    "extra_flags":      {"size": 4, "num": 0x13},
 }
 # fmt: on
 

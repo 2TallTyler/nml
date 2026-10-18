@@ -150,6 +150,8 @@ constant_numbers = {
     "VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY" : 3,
     "VEHICLE_FLAG_TRAIN_HAS_CAB" : 4,
     "VEHICLE_FLAG_SHIP_IS_DOUBLE_ENDED" : 5,
+    "VEHICLE_FLAG_AIRCRAFT_CAN_USE_WATER_AIRPORT" : 6,
+    "VEHICLE_FLAG_AIRCRAFT_MUST_USE_WATER_AIRPORT" : 7,
 
     # badge flags
     "BADGE_FLAG_COPY_TO_RELATED_ENTITY" : 0,
@@ -668,6 +670,9 @@ constant_numbers = {
     "IND_CREATION_RANDOM"                : 1,
     "IND_CREATION_FUND"                  : 2,
     "IND_CREATION_PROSPECT"              : 3,
+
+    # Airport general flags
+    "AIRPORT_FLAG_IS_WATER_AIRPORT"      : 0,
 
     # airport types (vehicle var 0x44, base station var airport_type)
     "AIRPORTTYPE_SMALL"                  : 0,

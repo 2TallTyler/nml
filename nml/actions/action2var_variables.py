@@ -169,6 +169,7 @@ varact2vars_vehicles = {
     'built_during_preview'             : {'var': 0xFE, 'start': 10, 'size':  1},
     'train_is_driving_backwards'       : {'var': 0xFE, 'start': 11, 'size':  1, 'replaced_by': 'vehicle_is_moving_backwards'},
     'vehicle_is_moving_backwards'      : {'var': 0xFE, 'start': 11, 'size':  1},
+    'aircraft_landed_on_water'         : {'var': 0xFE, 'start': 12, 'size':  1},
 }
 
 # Vehicle-type-specific variables
